@@ -62,23 +62,41 @@ header > img {
     display: inline-block;
 }
 
-header  i#burguer {
-    font-size: 4em;
+header > i#burguer {
+    background-color: var(--cor01);
+    display: block;
+    color: white;
+    padding: 10px;
+    font-size: 5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+header > i#burguer:hover {
+    background-color: var(--cor04);
 }
 
 header > menu {
-/*     display: none; */
-    display: inline-block;
-    right: 3%;
+    display: none;
 }
 header > menu > ul {
     list-style-type: none;
 }
 
 header > menu > ul > li > a {
-
+    display: block;
+    background-color: var(--cor01);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid gray;
 }
 
+header > menu > ul > li > a:hover {
+    background-color: var(--cor04);
+    font-weight: bold;
+}
 
 
 footer{

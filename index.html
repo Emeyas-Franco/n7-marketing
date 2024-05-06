@@ -29,7 +29,7 @@
             <h1>N7 Marketing <br> Assessoria e Consultoria</h1>
             <p>Capacitamos empresas e profissionais a prosperarem no mundo digital.</p>
             <a href="">AGENDE UMA CONSULTA GRATUÍTA</a>
-            <img src="" alt="">
+            <img src="imagens/img.jpg" alt="Engrenagens" width="400px">
         </div>
     </main>
     <footer>
@@ -37,5 +37,20 @@
             Site desenvolvido por Emeyas Franco da <a href="#">N7 Marketing</a>
         </p>
     </footer>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else (itens.style.display = 'none')
+        }
+        
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else (itens.style.display = 'block')
+        }
+    </script>
 </body>
 </html>
