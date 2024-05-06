@@ -100,6 +100,48 @@ header > menu > ul > li > a:hover {
     font-weight: bold;
 }
 
+main{
+    margin: 20px;
+}
+
+main > div > h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--cor01);
+}
+
+main > div > p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+main > div > a {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    width: 300px;
+    font-family: var(--fonte-destaque2);
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--cor02);
+    color: white;
+    border: 1px solid #4e9b7c;
+    border-radius: 50px;
+}
+
+main > div > a:hover {
+    background-color: #4e9b7c;
+    color: white;
+}
+
+main > div > img {
+    display: block;
+    padding-top: 5px;
+    margin: auto;
+}
 
 footer{
     background-color: var(--cor02);
