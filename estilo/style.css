@@ -11,7 +11,7 @@
     --cor02: #568d8f;
     --cor03: #66590F;
     --cor04: #5A84BB;
-    --cor05: #EB9F10;
+    --cor05: #FA924B;
 
     --fonte-padrao: Arial, Verdana, sans-serif;
     --fonte-destaque: 'Bebas Neue';
@@ -19,7 +19,7 @@
     --fonte-destaque3: 'Playfair Display SC'
 }
 body,html {
-
+    background-color: white;
 }
 
 body #fale {
@@ -34,4 +34,39 @@ body #fale {
 header {
     background-color: #334863;
     color: white;
+}
+
+header > div#top {
+    background-color: var(--cor05);
+    text-align: center;
+}
+
+header > div#top  a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2em;
+    width: 100vw;
+    color: white;
+    cursor: pointer;
+}
+
+header > div#top a:hover{
+    padding: 8px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: var(--cor05);
+}
+
+header > img {
+    display: inline-block;
+}
+
+header > i {
+    font-size: 4em;
+}
+
+header > menu {
+    display: inline-block;
 }
