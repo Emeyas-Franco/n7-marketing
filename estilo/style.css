@@ -8,10 +8,9 @@
 
 :root {
     --cor01: #334863;
-    --cor02: #568d8f;
-    --cor03: #66590F;
+    --cor02: #1ABA7A;
+    --cor03: #FA924B;
     --cor04: #5A84BB;
-    --cor05: #FA924B;
 
     --fonte-padrao: Arial, Verdana, sans-serif;
     --fonte-destaque: 'Bebas Neue';
@@ -37,7 +36,7 @@ header {
 }
 
 header > div#top {
-    background-color: var(--cor05);
+    background-color: var(--cor03);
     text-align: center;
 }
 
@@ -56,17 +55,34 @@ header > div#top a:hover{
     background-color: white;
     font-weight: bolder;
     font-size: 1.5em;
-    color: var(--cor05);
+    color: var(--cor03);
 }
 
 header > img {
     display: inline-block;
 }
 
-header > i {
+header  i#burguer {
     font-size: 4em;
 }
 
 header > menu {
+/*     display: none; */
     display: inline-block;
+    right: 3%;
+}
+header > menu > ul {
+    list-style-type: none;
+}
+
+header > menu > ul > li > a {
+
+}
+
+
+
+footer{
+    background-color: var(--cor02);
+    color: var(--cor01);
+    text-align: center;
 }
