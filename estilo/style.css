@@ -58,6 +58,7 @@ header > div#top a:hover{
 }
 
 header > img {
+    position: absolute;
     margin: auto;
     display: block;
 }
@@ -68,7 +69,7 @@ header > i#burguer {
     color: white;
     padding: 10px;
     font-size: 5em;
-    text-align: center;
+    text-align: right;
     cursor: pointer;
 }
 
