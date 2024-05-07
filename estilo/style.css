@@ -154,51 +154,97 @@ main > section#servicos > h2 {
     color: #334863;
 }
 
-main > section#servicos > i#anterior {
+main > section#servicos > article > i#anterior {
     position: absolute;
     background-color: var(--cor01);
     left: 7%;
     color: white;
+    font-weight: bold;
     border-radius: 50px;
     text-align: center;
 } 
 
-main > section#servicos > i#proximo{
+main > section#servicos > article > i#proximo {
     position: absolute;
     background-color: var(--cor01);
     right: 7%;
     color: white;
+    font-weight: bold;
     border-radius: 50px;
     text-align: center;
 
 }
 
-main > section#servicos  div {
+main > section#servicos > article.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main > section#servicos > article.galeria > div.fotos {
+    position: relative;
+    overflow: hidden;
+}
+
+main > section#servicos > article.galeria > div.fotos > div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+main > section#servicos > article.galeria > div.fotos > div.ativa{
+    opacity: 1;
+}
+
+/* main > section#servicos > article.galeria > div.fotos > div {
     display: block;
     margin: auto;
     width: 60vw;
     border-radius: 10px;
     border: 1px solid black;
     overflow: hidden;
-}
+    padding-bottom: 20px;
+} */
 
-main > section#servicos  div >img{
+main > section#servicos > article.galeria > div.fotos > div >img{
     width: 100%;
 }
 
-main > section#servicos  div > h3 {
+main > section#servicos > article.galeria > div.fotos > div > h3 {
     font-size: 1.4em;
     font-family: var(--fonte-padrao);
     text-align: center;
     margin: 8px;
 }
 
-main > section#servicos  div > p {
+main > section#servicos > article.galeria > div.fotos > div > p {
     text-align: center;
     font-size: 1.1em;
     margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
+main > section#servicos > article.galeria > div.fotos > div > button {
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+    height: 30px;
+    background-color: var(--cor01);
+    color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0px;
+    
+}
 
 footer{
     background-color: var(--cor02);
