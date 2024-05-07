@@ -153,32 +153,26 @@ main > section#servicos > h2 {
     color: #334863;
 }
 
-main > section#servicos > i#left {
+main > section#servicos > i#anterior {
     position: absolute;
     background-color: var(--cor01);
     left: 7%;
     color: white;
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
     text-align: center;
-    font-size: 4em;
 } 
 
-main > section#servicos > i#right{
+main > section#servicos > i#proximo{
     position: absolute;
     background-color: var(--cor01);
     right: 7%;
     color: white;
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
     text-align: center;
-    font-size: 4em;
 
 }
 
-main > section#servicos > div {
+main > section#servicos  div {
     display: block;
     margin: auto;
     width: 60vw;
@@ -187,18 +181,18 @@ main > section#servicos > div {
     overflow: hidden;
 }
 
-main > section#servicos > div >img{
+main > section#servicos  div >img{
     width: 100%;
 }
 
-main > section#servicos > div > h3 {
+main > section#servicos  div > h3 {
     font-size: 1.4em;
     font-family: var(--fonte-padrao);
     text-align: center;
     margin: 8px;
 }
 
-main > section#servicos > div > p {
+main > section#servicos  div > p {
     text-align: center;
     font-size: 1.1em;
     margin-bottom: 5px;
