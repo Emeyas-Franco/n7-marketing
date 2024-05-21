@@ -154,7 +154,7 @@ main > section#servicos > h2 {
     color: #334863;
 }
 
-main > section#servicos > article > i#anterior {
+main > section#servicos > article.galeria > i#anterior {
     position: absolute;
     background-color: var(--cor01);
     left: 7%;
@@ -162,6 +162,7 @@ main > section#servicos > article > i#anterior {
     font-weight: bold;
     border-radius: 50px;
     text-align: center;
+    cursor: pointer;
 } 
 
 main > section#servicos > article > i#proximo {
@@ -172,6 +173,7 @@ main > section#servicos > article > i#proximo {
     font-weight: bold;
     border-radius: 50px;
     text-align: center;
+    cursor: pointer;
 
 }
 
@@ -189,11 +191,14 @@ main > section#servicos > article.galeria > div.fotos {
 }
 
 main > section#servicos > article.galeria > div.fotos > div {
-    width: 100%;
+    width: 99%;
     height: auto;
     position: absolute;
     top: 0;
     left: 0;
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -227,12 +232,12 @@ main > section#servicos > article.galeria > div.fotos > div > p {
     text-align: center;
     font-size: 1.1em;
     margin-bottom: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 main > section#servicos > article.galeria > div.fotos > div > button {
     display: block;
-    margin: 0px auto;
+    margin: 5px auto;
     width: 80%;
     height: 30px;
     background-color: var(--cor01);

@@ -1,11 +1,11 @@
 const fotos = document.querySelectorAll('.fotos div');
-const anterior = document.querySelector('.anterior');
-const proximo = document.querySelector('.proximo');
+const anterior = document.querySelector('#anterior');
+const proximo = document.querySelector('#proximo');
 
 let indiceAtual = 0;
 
 function mostrarFoto(indice) {
-    fotos.forEach(foto => foto.style.opacity = 0);
+    fotos.forEach(fotos => foto.style.opacity = 0);
     fotos[indice].style.opacity = 1;
 }
 
