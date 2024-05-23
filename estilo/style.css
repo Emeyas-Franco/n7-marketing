@@ -211,18 +211,6 @@ main > section#servicos > article.galeria > div.fotos > div.ativa{
     position: relative;
 }
 
-
-
-/* main > section#servicos > article.galeria > div.fotos > div {
-    display: block;
-    margin: auto;
-    width: 60vw;
-    border-radius: 10px;
-    border: 1px solid black;
-    overflow: hidden;
-    padding-bottom: 20px;
-} */
-
 main > section#servicos > article.galeria > div.fotos > div >img{
     width: 100%;
     padding-top: 10px;
@@ -256,6 +244,22 @@ main > section#servicos > article.galeria > div.fotos > div > button {
     border-radius: 50px;
     border: 0px;
     
+}
+
+main > section#servicos > article.missao > div {
+    margin: 30px auto;
+    width: 90%;
+    height: auto;
+    top: 0;
+    left: 0;
+    border: px solid rgba(0, 0, 0, 0.139);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+main > section#servicos > article.missao > div >img{
+    width: 100%;
 }
 
 footer{
