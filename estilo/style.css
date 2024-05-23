@@ -190,7 +190,7 @@ main > section#servicos > article.galeria > div.fotos {
     overflow: hidden;
 }
 
-/* main > section#servicos > article.galeria > div.fotos > div {
+main > section#servicos > article.galeria > div.fotos > div {
     width: 99%;
     height: auto;
     position: absolute;
@@ -205,7 +205,10 @@ main > section#servicos > article.galeria > div.fotos {
 
 main > section#servicos > article.galeria > div.fotos > div.ativa{
     opacity: 1;
-} */
+    position: relative;
+}
+
+
 
 /* main > section#servicos > article.galeria > div.fotos > div {
     display: block;
@@ -219,6 +222,7 @@ main > section#servicos > article.galeria > div.fotos > div.ativa{
 
 main > section#servicos > article.galeria > div.fotos > div >img{
     width: 100%;
+    padding-top: 10px;
 }
 
 main > section#servicos > article.galeria > div.fotos > div > h3 {
