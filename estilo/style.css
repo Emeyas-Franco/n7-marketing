@@ -188,6 +188,9 @@ main > section#servicos > article.galeria {
 main > section#servicos > article.galeria > div.fotos {
     position: relative;
     overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+
 }
 
 main > section#servicos > article.galeria > div.fotos > div {
@@ -196,7 +199,7 @@ main > section#servicos > article.galeria > div.fotos > div {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.139);
     border-radius: 30px;
     overflow: hidden;
     opacity: 0;
