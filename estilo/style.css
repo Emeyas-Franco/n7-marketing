@@ -61,6 +61,7 @@ header > img {
     position: absolute;
     margin: auto;
     display: block;
+    left: 20px;
 }
 
 header > i#burguer {
@@ -248,7 +249,7 @@ main > section#servicos > article.galeria > div.fotos > div > button {
 
 main > section#servicos > article.missao > div {
     margin: 30px auto;
-    width: 90%;
+    width: 80%;
     height: auto;
     top: 0;
     left: 0;
