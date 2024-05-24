@@ -10,12 +10,14 @@ function mudouTamanho(){
     }
     else (itens.style.display = 'none')
 }
+
 function clickMenu(){
     if (itens.style.display == 'block') {
         itens.style.display = 'none'
     }
     else (itens.style.display = 'block')
 }
+
 function mostrarFoto(indice) {
     fotos.forEach(fotos => fotos.style.opacity = 0);
     fotos[indice].style.opacity = 1;
@@ -23,23 +25,14 @@ function mostrarFoto(indice) {
 
 mostrarFoto(indiceAtual);
 
-function anterior(){
+anterior.addEventListener('click', () => {
     if (indiceAtual === 0) {
         indiceAtual = fotos.length - 1;
     } else {
         indiceAtual--;
     }
     mostrarFoto(indiceAtual);
-}
-
-/* anterior.addEventListener('click', () => {
-    if (indiceAtual === 0) {
-        indiceAtual = fotos.length - 1;
-    } else {
-        indiceAtual--;
-    }
-    mostrarFoto(indiceAtual);
-}); */
+});
 
 proximo.addEventListener('click', () => {
     if (indiceAtual === fotos.length - 1) {

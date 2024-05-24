@@ -59,9 +59,9 @@ header > div#top a:hover{
 
 header > img {
     position: absolute;
-    margin: auto;
+    margin: 2px auto;
     display: block;
-    left: 20px;
+    left: 30px;
 }
 
 header > i#burguer {
