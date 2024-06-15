@@ -55,13 +55,16 @@ header > div#top a:hover{
     font-weight: bolder;
     font-size: 1.5em;
     color: var(--cor03);
+    transition: 0.3s ease-in ;
 }
 
 header > img {
     position: absolute;
     margin: 2px auto;
+    
     display: block;
     left: 30px;
+    
 }
 
 header > i#burguer {
@@ -155,24 +158,24 @@ main > section#servicos > h2 {
     color: #334863;
 }
 
-main > section#servicos > article.galeria > i#anterior {
+main > section#servicos > article.galeria > button#anterior {
     position: absolute;
     background-color: var(--cor01);
     left: 7%;
     color: white;
     font-weight: bold;
-    border-radius: 50px;
+    border-radius: 50%;
     text-align: center;
     cursor: pointer;
 } 
 
-main > section#servicos > article > i#proximo {
+main > section#servicos > article > button#proximo {
     position: absolute;
     background-color: var(--cor01);
     right: 7%;
     color: white;
     font-weight: bold;
-    border-radius: 50px;
+    border-radius: 50%;
     text-align: center;
     cursor: pointer;
 
